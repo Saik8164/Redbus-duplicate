@@ -1,0 +1,323 @@
+#main{
+    border:0px solid black;
+    width:1300px;
+    height:auto;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    
+    }
+    #headbox{
+    border:0px solid black;
+    height:150px;
+    width:1275px;
+    
+    }
+    .headbutton{
+    border:0px solid black ;
+    border-radius: 10px;
+    background:transparent;
+    position: relative;
+    top:20px;
+    left:200px;
+    margin-right: 50px;
+     
+    }
+    .headbutton:hover{
+    background-color: rgb(192, 190, 188);
+    border-radius: 10px;
+    
+    }
+    #headlogo{
+        position:relative;
+         top: 30px; 
+         left:30px; 
+    }
+    .headset{
+    border: 0px ;
+    background-color: white;
+    height: 50px;
+    width:50px;
+    position: relative;
+    margin-right: 100px;
+    top:50px;
+    left:450px;
+    
+    }
+    #bookbus{
+        border:0px solid black;
+    height:500px;
+    width:1275px;
+    background: url(https://st.redbus.in/Images/HomeIndia/HeroImage.png);
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    #bookticket{
+    border:1px solid black;
+    height:100px;
+    width:1000px;
+    background-color:white;
+    border-radius: 100px;
+    opacity: 0.9;
+    display:flex;
+    align-items: center;
+    
+    }
+    .nav-bar-ticket{
+    border:1px solid black;
+    height: 40%;
+    width: 15%;
+    margin-left: 50px;
+    padding-top: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    
+    }
+    #book-button{
+        border:1px solid black;
+        height: 100%;
+        width: 30%;
+        margin-left: 50px;
+        border-radius: 50px;
+        position: relative;
+        right: 0%;
+        background: rgb(216, 78, 85);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border: none;
+        transform: translateX(35px);
+    }
+    /* .arrow{ 
+    margin-left:50px;
+    text-align: center ;
+    position: relative;
+    top:30px;
+    
+    } */
+    #trip-book{
+    border:0px solid black;
+    width:1275px;
+    height: 500px;
+    background: url(https://static.tacdn.com/img2/branding/homepage/home-tab2-hero-1367x520-prog.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    #search-tour{
+    border:0px solid black;
+    height:50px;
+    width:80%;
+    background-color: white;
+    opacity:0.8;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    
+    }
+    #search-button{
+        width:75%;
+        height:90%;
+        border:0px solid black;
+        border-radius: 30px 0% 0% 30px;
+
+    }
+    #check-in{
+        width:38%;
+        height: 100%;
+
+    }
+    .date-check{
+        width:49.3%;
+        height:100%;
+    }
+    #tour-search{
+        width:12%;
+        height: 100%;
+    }
+    #button-search{
+        width:100%;
+        height:100%;
+        border-radius: 0px 30px 30px 0px;
+    }
+    #review-tab{
+        border: 0px solid black;
+        width:1200px;
+        height:400px;
+        display: flex;
+        justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 2s;
+    border-radius: 25px;
+    background-color: #fff7e1;
+          }
+     /* .review-div :hover{ 
+        z-index: 1;
+        transform:perspective(450px) translate3d(100px,0px,100px);
+     }  */
+     .review-sub-div1,.review-sub-div2,.review-sub-div3,.review-sub-div4{
+        border: 2px solid black;
+        width: 150px;
+        height:100px;
+
+        border-radius: 200px;
+         }
+     .review-sub-div1{
+        background-image: url(https://th.bing.com/th?q=Kakashi+Reading&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247);
+        background-image: cover;
+
+     }
+     .review-sub-div2{
+        background-image: url(https://th.bing.com/th?q=Jiraiya+Naruto+PNG&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247);
+        background-size: auto;
+    }
+    .review-sub-div3{
+        background-image: url(https://th.bing.com/th/id/OIP.WAeuH-8QP2wc5SIdJc--TwHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    .review-sub-div4{
+
+        background-image: url(https://th.bing.com/th/id/OIP.96Ye8ERMDH4Q-DzkDRTLyQHaEK?w=329&h=185&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    .review-div{
+        border:0px solid black;
+        width:250px;
+        height:380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        background-color: orange;
+        transition: all 2s;
+        flex-wrap: wrap;
+        border-radius: 25px;
+        
+    }
+    .review-div:hover{
+
+        z-index: 1;
+        transform:perspective(450px) translate3d(100px,0px,100px);
+    }
+    #trip-suggestion{
+        border:0px solid black;
+        width:90%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    
+}
+.best-trip-img-box:hover{
+    z-index: 1;
+        transform:perspective(450px) translate3d(50px,0px,50px);
+
+}
+    
+    .best-trip-img-box{
+        border: 2px solid black;
+        width:320px;
+        height:200px;
+        border-radius: 50px;
+        transition: all 1s;
+    }
+    #best-trip-img1{
+        background-image: url(https://static.tacdn.com/img2/vacationrentals/lander/popularGeos/Isle%20of%20Wight%20cottages.jpg);
+        background-size: cover;
+    }
+    #best-trip-img2{
+        background-image: url(https://static.tacdn.com/img2/vacationrentals/lander/popularGeos/St%20Ives%20cottages.jpg);
+        background-size: cover;
+    }
+    #best-trip-img3{
+        background-image: url(https://th.bing.com/th/id/OIP.XJV8sAkHM9UDOBITw2h2PwHaE5?w=308&h=203&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    #best-trip-img4{
+        background-image: url(https://th.bing.com/th/id/OIP.TXlEs3JCXlV4WxCwadThrwHaE7?w=297&h=198&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    #best-trip-img5{
+        background-image: url(https://th.bing.com/th/id/OIP.TwpbWIpyyvF2QoWVLRoIEQHaES?w=343&h=180&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    #best-trip-img6{
+        background-image: url(https://images.pexels.com/photos/3769312/pexels-photo-3769312.jpeg?auto=compress&cs=tinysrgb&w=600
+        );
+        background-size: cover;
+    }
+    #best-trip-img7{
+        background-image: url(https://th.bing.com/th/id/OIP.ztmMc0XaLqYSZLO1hKTqMQHaEK?w=276&h=180&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    #best-trip-img8{
+        background-image: url(https://th.bing.com/th/id/OIP.XFFDVCA2wE4Yhg00Og0TwwHaEj?w=311&h=192&c=7&r=0&o=5&pid=1.7);
+        background-size: cover;
+    }
+    footer{
+        border: 0px solid black;
+        width:100%;
+        height: 800px;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+    #foot-1{
+        border: 0px solid black;
+        height:40%;
+        width:90%;
+        display: flex;
+        font-size:large;
+        border-bottom: 1px solid black;
+
+    }
+    #foot-2{
+        border: 0px solid black;
+        height:45%;
+        width:90%;
+        display: flex;
+        font-size: large;
+        border-bottom: 1px solid black;
+
+    }
+    ul{
+        list-style-type: none;
+        overflow:auto;
+        font-size: 100;
+    }
+    .viewmore-button{
+        border: 1px solid black;
+        width:100px;
+        height:30px;
+        border-radius: 20px;
+    }
+    #footer-2{
+        display: flex;
+
+
+    }
+    #footer-2-sub{
+        border:0px solid black;
+        width:20%;
+        height:80%;
+    }
